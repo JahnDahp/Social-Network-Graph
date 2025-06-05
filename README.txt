@@ -7,4 +7,5 @@ cd SocialNetwork
 git clone https://github.com/microsoft/vcpkg.git
 cmake --preset Release
 cmake --build --preset Release
-.\socialnetwork.exe
+cd Bin
+.\SocialNetwork.exe
