@@ -1,8 +1,11 @@
 BUILD INSTRUCTIONS
 
 Install CMake -> https://cmake.org/download/
+Install Ninja -> https://github.com/ninja-build/ninja/releases
 
 WINDOWS
+Add ninja.exe to Windows Environment Varaibles Path if Ninja is not already installed.
+
 git clone https://github.com/JahnDahp/SocialNetwork.git
 cd SocialNetwork
 git clone https://github.com/microsoft/vcpkg.git
