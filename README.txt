@@ -1,3 +1,7 @@
+BUILD INSTRUCTIONS
+Install CMake -> https://cmake.org/download/
+
+git clone https://github.com/JahnDahp/SocialNetwork.git
 cd socialnetwork
 git clone https://github.com/microsoft/vcpkg.git
 cd vcpkg
