@@ -10,9 +10,9 @@ cd vcpkg
 bootstrap-vcpkg.bat
 .\vcpkg.exe install
 cd ..
-cmake -S . -B Build -DCMAKE_TOOLCHAIN_FILE=./vcpkg/scripts/buildsystems/vcpkg.cmake -DCMAKE_BUILD_TYPE=Release
-cmake --build build --config Release
-cd Build/Release
+cmake --preset x64-release-windows
+cmake --build --preset x64-release-windows
+cd Out/build/x64-release
 .\socialnetwork.exe
 
 MAC / LINUX
@@ -23,7 +23,7 @@ cd vcpkg
 ./bootstrap-vcpkg.sh
 ./vcpkg install
 cd ..
-cmake -S . -B Build -DCMAKE_TOOLCHAIN_FILE=./vcpkg/scripts/buildsystems/vcpkg.cmake -DCMAKE_BUILD_TYPE=Release
-cmake --build Build --config Release
-cd Build/Release
+cmake --preset x64-release
+cmake --build --preset x64-release
+cd Out/build/x64-release
 ./socialnetwork
