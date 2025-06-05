@@ -15,7 +15,7 @@ bootstrap-vcpkg.bat
 cd ..
 cmake --preset x64-release-windows
 cmake --build --preset x64-release-windows
-cd Out/build/x64-release
+cd Out/Build/Release/
 .\socialnetwork.exe
 
 MAC / LINUX

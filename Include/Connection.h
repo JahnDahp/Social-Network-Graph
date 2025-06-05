@@ -17,7 +17,7 @@ public:
 private:
 	User* user1_;
 	User* user2_;
-	Shader shader_ = Shader("../../Resources/Shaders/shader.vert", "../../Resources/Shaders/shader.frag");
+	Shader shader_ = Shader("../../../../Resources/Shaders/shader.vert", "../../../../Resources/Shaders/shader.frag");
 	Renderer renderer_;
 	VertexArray vertexArray_;
 	VertexBuffer vertexBuffer_;
