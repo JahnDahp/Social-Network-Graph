@@ -70,5 +70,23 @@
         "CMAKE_BUILD_TYPE": "Release"
       }
     }
+  ],
+  "buildPresets": [
+    {
+      "name": "x64-release-windows",
+      "configurePreset": "x64-release-windows"
+    },
+    {
+      "name": "x64-debug-windows",
+      "configurePreset": "x64-debug-windows"
+    },
+    {
+      "name": "x64-release",
+      "configurePreset": "x64-release"
+    },
+    {
+      "name": "x64-debug",
+      "configurePreset": "x64-debug"
+    }
   ]
 }
