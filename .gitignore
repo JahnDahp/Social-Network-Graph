@@ -1,0 +1,12 @@
+# Build
+/build/
+/Build/
+/out/
+/Out/
+
+# vcpkg
+/vcpkg_installed/
+/vcpkg/
+
+# Visual Studio
+/.vs/
