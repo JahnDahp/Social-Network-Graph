@@ -26,7 +26,6 @@ add_executable(SocialNetwork
 	"Source/Console.cpp"
 	"Source/SocialNetwork.cpp")
 
-target_include_directories(SocialNetwork PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/../Resources")
 target_include_directories(SocialNetwork PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/Source")
 target_include_directories(SocialNetwork PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/Include")
 

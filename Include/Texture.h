@@ -1,7 +1,7 @@
 #pragma once
 
 #include <GL/glew.h>
-#include "STB/stb_image.h"
+#include "../Resources/STB/stb_image.h"
 
 class Texture 
 {
