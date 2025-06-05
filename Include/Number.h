@@ -15,8 +15,8 @@ public:
 	void render(glm::mat4 proj, glm::mat4 view);
 private:
 	int num_;
-	Shader shader_ = Shader("../../../../Resources/Shaders/texture.vert", "../../../../Resources/Shaders/texture.frag");
-	Texture texture_ = Texture("../../../../Resources/Textures/numbers.png");
+	Shader shader_ = Shader("../Resources/Shaders/texture.vert", "../Resources/Shaders/texture.frag");
+	Texture texture_ = Texture("../Resources/Textures/numbers.png");
 	Renderer renderer_;
 	VertexArray vertexArray_;
 	VertexBuffer vertexBuffer_;

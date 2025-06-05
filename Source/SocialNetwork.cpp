@@ -22,7 +22,7 @@ void SocialNetwork::run()
 	window = initGraphics();
 	if (window == NULL) return;
 
-	std::string userFile = "../../../../Resources/Saves/users.txt";
+	std::string userFile = "../Resources/Saves/users.txt";
 	Console console(network, userFile);
 	Exit* exitButton = new Exit();
 	exitButton->init();

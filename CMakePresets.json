@@ -9,22 +9,24 @@
     {
       "name": "base",
       "hidden": true,
-      "binaryDir": "${sourceDir}/Out/Build/${presetName}",
-      "installDir": "${sourceDir}/Out/install/${presetName}",
-      "toolchainFile": "${sourceDir}/vcpkg/scripts/buildsystems/vcpkg.cmake"
+      "binaryDir": "${sourceDir}/Build/${presetName}",
+      "installDir": "${sourceDir}/Install/${presetName}",
+      "cacheVariables": {
+        "CMAKE_TOOLCHAIN_FILE": "${sourceDir}/vcpkg/scripts/buildsystems/vcpkg.cmake"
+      }
     },
     {
-      "name": "debug",
-      "displayName": "Debug",
+      "name": "Debug",
       "inherits": "base",
+      "displayName": "Debug",
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Debug"
       }
     },
     {
-      "name": "release",
-      "displayName": "Release",
+      "name": "Release",
       "inherits": "base",
+      "displayName": "Release",
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Release"
       }
@@ -32,12 +34,12 @@
   ],
   "buildPresets": [
     {
-      "name": "debug",
-      "configurePreset": "debug"
+      "name": "Debug",
+      "configurePreset": "Debug"
     },
     {
-      "name": "release",
-      "configurePreset": "release"
+      "name": "Release",
+      "configurePreset": "Release"
     }
   ]
 }

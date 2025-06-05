@@ -2,6 +2,9 @@
 project(SocialNetwork)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/Bin/")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG  "${CMAKE_SOURCE_DIR}/Bin/")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE "${CMAKE_SOURCE_DIR}/Bin/")
 
 find_package(GLEW REQUIRED)
 find_package(glfw3 CONFIG REQUIRED)
@@ -23,8 +26,7 @@ add_executable(SocialNetwork
 	"Source/Console.cpp"
 	"Source/SocialNetwork.cpp")
 
-set_target_properties(SocialNetwork PROPERTIES VS_DEBUGGER_WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}")
-target_include_directories(SocialNetwork PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/Resources")
+target_include_directories(SocialNetwork PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/../Resources")
 target_include_directories(SocialNetwork PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/Source")
 target_include_directories(SocialNetwork PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/Include")
 

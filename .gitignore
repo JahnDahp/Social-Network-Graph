@@ -3,10 +3,22 @@
 /Build/
 /out/
 /Out/
+/Lib/
+/lib/
+/Bin/
+/bin/
+/Debug/
+/debug/
+/Release/
+/release/
+*.exe
+*.dll
+*.pdb
 
 # vcpkg
 /vcpkg_installed/
 /vcpkg/
+vcpkg.json
 
 # Visual Studio
 /.vs/

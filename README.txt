@@ -9,13 +9,8 @@ Add ninja.exe to Windows Environment Varaibles Path if Ninja is not already inst
 git clone https://github.com/JahnDahp/SocialNetwork.git
 cd SocialNetwork
 git clone https://github.com/microsoft/vcpkg.git
-cd vcpkg
-bootstrap-vcpkg.bat
-.\vcpkg.exe install
-cd ..
-cmake --preset x64-release-windows
-cmake --build --preset x64-release-windows
-cd Out/Build/Release/
+cmake --preset Release
+cmake --build --preset Release
 .\socialnetwork.exe
 
 MAC / LINUX

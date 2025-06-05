@@ -33,7 +33,7 @@ private:
 	int year_;
 	int zip_;
 	std::set<int> friends_;
-	Shader shader_ = Shader("../../../../Resources/Shaders/shader.vert", "../../../../Resources/Shaders/shader.frag");
+	Shader shader_ = Shader("../Resources/Shaders/shader.vert", "../Resources/Shaders/shader.frag");
 	Renderer renderer_;
 	VertexArray vertexArray_;
 	VertexBuffer vertexBuffer_;
