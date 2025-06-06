@@ -5,15 +5,12 @@
 /Out/
 /Lib/
 /lib/
-/Bin/
-/bin/
 /Debug/
 /debug/
 /Release/
 /release/
 /Test/
 /test/
-*.exe
 *.dll
 *.pdb
 
