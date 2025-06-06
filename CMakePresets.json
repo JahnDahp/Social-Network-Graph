@@ -7,7 +7,7 @@
   },
   "configurePresets": [
     {
-      "name": "windows-default",
+      "name": "Default",
       "hidden": false,
       "generator": "Ninja",
       "binaryDir": "${sourceDir}/Build",
@@ -16,6 +16,12 @@
         "VCPKG_MANIFEST_MODE": "ON",
         "CMAKE_BUILD_TYPE": "Release"
       }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "Default",
+      "configurePreset": "Default"
     }
   ]
 }
