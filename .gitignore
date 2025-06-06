@@ -11,6 +11,8 @@
 /debug/
 /Release/
 /release/
+/Test/
+/test/
 *.exe
 *.dll
 *.pdb

@@ -1,7 +1,7 @@
 #include "Console.h"
 
 int manual_stoi(std::string& str) {
-	str.erase(std::remove_if(str.begin(), str.end(), [](unsigned char c) { return !std::isdigit(c); }), str.end());
+	str.erase(remove_if(str.begin(), str.end(), [](unsigned char c) { return !std::isdigit(c); }), str.end());
 	int i = 0;
 	int n = str.size();
 	while (i < n && isspace(str[i]))
