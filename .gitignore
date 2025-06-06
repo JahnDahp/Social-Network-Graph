@@ -7,6 +7,17 @@
 /lib/
 /Bin/
 /bin/
+/Debug/
+/debug/
+/Release/
+/release/
+*.exe
+*.dll
+*.pdb
+
+# vcpkg
+/vcpkg_installed/
+/vcpkg/
 
 # Visual Studio
 /.vs/
