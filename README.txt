@@ -4,8 +4,8 @@ Install CMake -> https://cmake.org/download/
 
 git clone https://github.com/JahnDahp/SocialNetwork.git
 cd SocialNetwork
-git clone https://github.com/microsoft/vcpkg.git
-cmake --preset Release
-cmake --build --preset Release
+git submodule update --init --recursive
+cmake --preset Default
+cmake --build --preset Default --config Release
 cd Bin
 .\SocialNetwork.exe
