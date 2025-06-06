@@ -1,6 +1,8 @@
 BUILD INSTRUCTIONS
 
 Install CMake -> https://cmake.org/download/
+Install Ninja
+Install MSVC Build Tools -> https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022
 
 git clone https://github.com/JahnDahp/SocialNetwork.git
 cd SocialNetwork
