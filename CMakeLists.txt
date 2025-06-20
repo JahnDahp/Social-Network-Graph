@@ -28,5 +28,6 @@ add_executable(SocialNetwork
 
 target_include_directories(SocialNetwork PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/Source")
 target_include_directories(SocialNetwork PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/Include")
+target_include_directories(SocialNetwork PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/Resources")
 
 target_link_libraries(SocialNetwork PRIVATE GLEW::GLEW glfw glm::glm)
