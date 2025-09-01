@@ -6,4 +6,3 @@ cmake --preset Default
 cmake --build --preset Default --config Release
 
 endlocal
-pause
