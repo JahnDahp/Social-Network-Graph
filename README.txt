@@ -1,6 +1,6 @@
 BUILD INSTRUCTIONS
 
-Install CMake -> https://cmake.org/download/
+Make sure to have CMake and a C++20 compiler (MSVC, GCC, or Clang). On Windows, this comes with Visual Studio or Build Tools for Visual Studio.
 
 git clone https://github.com/JahnDahp/SocialNetwork.git
 cd SocialNetwork
