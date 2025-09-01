@@ -114,9 +114,8 @@ void Console::deleteConnection()
 }
 void Console::writeUsers()
 {
-	std::string input;
-	std::cout << "Please enter the output file name.\n";
-	std::getline(std::cin, input);
+	std::string filename = "users.txt";
+	std::cout << "Saving data.\n";
 	char* outputFile = stringToCstring(input);
 	network_->writeUsers(outputFile);
 	delete[] outputFile;
