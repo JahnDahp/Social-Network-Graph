@@ -32,7 +32,7 @@ Console::Console(Network* network, std::string inputUserFile)
 {
 	network_ = network;
 	network_->readUsers(stringToCstring(inputUserFile));
-	std::cout << "Welcome to the Social Network (Copyright 2025 John Lee. All rights reserved.)\n";
+	std::cout << "Welcome to the Social Network.\n";
 }
 void Console::run()
 {
