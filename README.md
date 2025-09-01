@@ -1,6 +1,6 @@
 This is an interactive graphical represetation of a social network. Each node in the circle represents a user in the network, and each line between nodes is a connection.
 
-Nodes can be clicked to isolate only the selected user and their connections. The network can also be modified in the console.
+Nodes can be clicked to isolate only the selected user and their connections. Clicking a selected node will reset the graph. The network can also be modified in the console.
 
 Features
 --------
