@@ -1,6 +1,10 @@
-This is an interactive graphical represetation of a social network. Each node in the circle represents a user in the network, and each line between nodes is a connection.
+This is an interactive graphical representation of a social network. Each node in the circle represents a user in the network, and each line between nodes is a connection.
+
+![SN1](https://github.com/user-attachments/assets/8579b0a0-dd8a-4211-87a3-4d76bcf263cc)
 
 Nodes can be clicked to isolate only the selected user and their connections. Clicking a selected node will reset the graph. The network can also be modified in the console.
+
+![SN2](https://github.com/user-attachments/assets/d8c07921-8c5a-4801-abf0-d00b3f652dde)
 
 Features
 --------
@@ -9,6 +13,8 @@ Features
   - The network can be modified to add users, add connections, remove connections, and save data all within the console.
   - Exiting the program in the console allows the graph to be traversed again.
   - Navigate the graph with WASD, and zoom in/out with shift/space.
+
+![SN3](https://github.com/user-attachments/assets/355ab275-8ce5-445f-b721-e45a90335677)
 
 Code Details
 --------
