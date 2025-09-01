@@ -24,7 +24,7 @@ Libraries used
 Build Instructions
 --------
 Requirements:
-  - CMake
-  - C++20 compiler (MSVC, GCC, or Clang). On Windows, this comes with Visual Studio or Build Tools for Visual Studio.
+  - [CMake](https://cmake.org/)
+  - C++20 compiler/build tools ([MSVC](https://visualstudio.microsoft.com/vs/features/cplusplus/), [GCC](https://gcc.gnu.org/install/), [Ninja](https://github.com/ninja-build/ninja), or [Clang](https://github.com/llvm/llvm-project/releases). On Windows, this comes with Visual Studio or Build Tools for Visual Studio.
 
 Run the bootstrap to generate in the executable in Bin. Run bootstrap.bat for windows, bootstrap.sh for MacOS/Linux.
