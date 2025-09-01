@@ -5,10 +5,21 @@ Nodes can be clicked to isolate only the selected user and their connections. Th
 Features
 --------
   - Selecting a node outputs the user's name and all connections in the console.
-  - The user's ID is displayed next to each node
+  - The user's ID is displayed next to each node.
   - The network can be modified to add users, add connections, remove connections, and save data all within the console.
   - Exiting the program in the console allows the graph to be traversed again.
   - Navigate the graph with WASD, and zoom in/out with shift/space.
+
+Code Details
+--------
+The social network uses an undirected graph to represent users and their connections.
+
+Libraries used
+  - glew (https://github.com/nigels-com/glew) for loading OpenGL.
+  - glfw (https://github.com/StudioClockWork/GLFW) for creating the window.
+  - glm (https://github.com/g-truc/glm) for matrix operations.
+  - stb_image (https://github.com/nothings/stb) for image rendering.
+  - vcpkg (https://github.com/microsoft/vcpkg.git) for managing dependencies.
 
 Build Instructions
 --------
