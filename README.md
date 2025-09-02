@@ -33,5 +33,5 @@ Requirements:
   - [CMake](https://cmake.org/)
   - C++20 compiler/build tools ([MSVC](https://visualstudio.microsoft.com/vs/features/cplusplus/), [GCC](https://gcc.gnu.org/install/), [Ninja](https://github.com/ninja-build/ninja), or [Clang](https://github.com/llvm/llvm-project/releases). On Windows, this comes with Visual Studio or Build Tools for Visual Studio.
 
-Run `git clone --recursive https://github.com/SomePineaple/GLGrass`.
+Run `git clone --recursive https://github.com/JahnDahp/Social-Network-Graph/`.
 Then `cd Social-Network-Graph && mkdir Build && cd Build && cmake .. -DCMAKE_BUILD_TYPE=Release && cmake --build . --config Release`.
