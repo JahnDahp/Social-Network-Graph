@@ -25,7 +25,6 @@ Libraries used
   - [glfw](https://github.com/StudioClockWork/GLFW) for creating the window.
   - [glm](https://github.com/g-truc/glm) for matrix operations.
   - [stb_image](https://github.com/nothings/stb) for image rendering.
-  - [vcpkg](https://github.com/microsoft/vcpkg.git) for managing dependencies.
 
 Build Instructions
 --------
