@@ -21,7 +21,7 @@ Code Details
 The social network uses an undirected graph to represent users and their connections.
 
 Libraries used
-  - [glew](https://github.com/nigels-com/glew) for loading OpenGL.
+  - [gl3w](https://github.com/skaslev/gl3w) for loading OpenGL.
   - [glfw](https://github.com/StudioClockWork/GLFW) for creating the window.
   - [glm](https://github.com/g-truc/glm) for matrix operations.
   - [stb_image](https://github.com/nothings/stb) for image rendering.
