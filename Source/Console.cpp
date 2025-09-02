@@ -116,7 +116,7 @@ void Console::writeUsers()
 {
 	std::string filename = "users.txt";
 	std::cout << "Saving data.\n";
-	char* outputFile = stringToCstring(input);
+	char* outputFile = stringToCstring(filename);
 	network_->writeUsers(outputFile);
 	delete[] outputFile;
 }
