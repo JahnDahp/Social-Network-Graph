@@ -6,9 +6,9 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/Bin/")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG  "${CMAKE_SOURCE_DIR}/Bin/")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE "${CMAKE_SOURCE_DIR}/Bin/")
 
-find_package(GLEW REQUIRED)
-find_package(glfw3 CONFIG REQUIRED)
-find_package(glm CONFIG REQUIRED)
+add_subdirectory("Dependencies/glfw")
+add_subdirectory("Dependencies/glm")
+add_subdirectory("Dependencies/gl3w")
 
 add_executable(SocialNetwork 
 	"Main.cpp" 
@@ -30,4 +30,4 @@ target_include_directories(SocialNetwork PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/So
 target_include_directories(SocialNetwork PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/Include")
 target_include_directories(SocialNetwork PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/Resources")
 
-target_link_libraries(SocialNetwork PRIVATE GLEW::GLEW glfw glm::glm)
+target_link_libraries(SocialNetwork PRIVATE gl3w glfw glm::glm)
